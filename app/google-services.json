@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1026392682605",
+    "firebase_url": "https://panhelpmic.firebaseio.com",
+    "project_id": "panhelpmic",
+    "storage_bucket": "panhelpmic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026392682605:android:a2788efd20699310794f64",
+        "android_client_info": {
+          "package_name": "com.example.panhelpmic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026392682605-kihc9036m95slt9e1ppfgq2ftbtjjkqj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.panhelpmic",
+            "certificate_hash": "8011682a84282310e33ccb84e49fc6b22c45643d"
+          }
+        },
+        {
+          "client_id": "1026392682605-292q2fega95o0sm9vg5djhfshqvol66m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrQMcdz1bSeihtb1Ck1gGGLWGzyvCmvu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026392682605-292q2fega95o0sm9vg5djhfshqvol66m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

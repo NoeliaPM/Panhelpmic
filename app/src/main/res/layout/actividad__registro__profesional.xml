@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Actividad_Registro_Profesional">
+
+    <Button
+        android:id="@+id/button_Ayuda"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/info_grande" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:paddingTop="40sp"
+        android:text="@string/setdpqe" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="110dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="25dp">
+
+        <RadioButton
+            android:id="@+id/radioButton_Sanitario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/morado"
+            android:text="@string/sani"
+            android:textColor="@color/morado" />
+
+        <RadioButton
+            android:id="@+id/radioButton_Abogado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/morado"
+            android:text="@string/abo"
+            android:textColor="@color/morado" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:paddingTop="30sp"
+        android:text="@string/sudqaqpe" />
+
+    <Button
+        android:id="@+id/button_Confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/salmon"
+        android:text="@string/confirmar" />
+
+    <EditText
+        android:id="@+id/editText_Especialidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:backgroundTint="@color/morado"
+        android:ems="10"
+        android:hint="@string/ite"
+        android:inputType="textPersonName"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/button_continuarP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/salmon"
+        android:text="@string/Continuar"
+        android:visibility="invisible" />
+
+</LinearLayout>

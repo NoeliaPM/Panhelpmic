@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Crear_Anuncios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText_titulo_anuncio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/morado"
+            android:ems="10"
+            android:hint="@string/it"
+            android:inputType="textPersonName"
+            android:paddingTop="30sp"
+            android:textSize="@dimen/letra_form" />
+
+        <EditText
+            android:id="@+id/editText_descripcion_anuncio"
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:backgroundTint="@color/morado"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/id"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/letra_form" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setda"
+            android:textSize="@dimen/letra_form" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fab"
+                android:textSize="@dimen/letra_form" />
+
+            <Button
+                android:id="@+id/button_basico_ca"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@drawable/x_peque" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fap"
+                android:textSize="@dimen/letra_form" />
+
+            <Button
+                android:id="@+id/button_profesional_ca"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@drawable/x_peque"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fae"
+                android:textSize="@dimen/letra_form" />
+
+            <Button
+                android:id="@+id/button_entretenimiento_ca"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:background="@drawable/x_peque" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_subir_foto_anuncio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/salmon"
+            android:text="@string/sf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sfech"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button_hora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sh"
+                android:visibility="invisible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editText_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/fde"
+                android:inputType="date"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/editText_hora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/hde"
+                android:inputType="time"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_publicar_anuncio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/salmon"
+            android:text="@string/pa" />
+
+    </LinearLayout>
+
+</FrameLayout>

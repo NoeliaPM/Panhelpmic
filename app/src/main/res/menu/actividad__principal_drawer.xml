@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_anuncios_basicos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/fab" />
+        <item
+            android:id="@+id/fragment_anuncios_profesionales"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/fap" />
+        <item
+            android:id="@+id/fragment_anuncios_entretenimiento"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/fae" />
+    </group>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/fragment_perfil_usuario"
+            android:icon="@drawable/perfil_peque"
+            android:title="@string/vp" />
+        <item
+            android:id="@+id/fragment_Crear_Anuncios"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/pa" />
+        <item
+            android:id="@+id/fragment_mapa2"
+            android:icon="@drawable/ubica_peque"
+            android:title="@string/vm" />
+    </group>
+</menu>

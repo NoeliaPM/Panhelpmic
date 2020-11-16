@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_anuncios_basicos">
+
+    <fragment
+        android:id="@+id/fragment_Crear_Anuncios"
+        android:name="com.example.panhelpmic.Fragment_Crear_Anuncios"
+        android:label="fragment__crear__anuncios"
+        tools:layout="@layout/fragment__crear__anuncios" />
+    <fragment
+        android:id="@+id/fragment_mapa2"
+        android:name="com.example.panhelpmic.Fragment_mapa"
+        android:label="fragment_mapa"
+        tools:layout="@layout/fragment_mapa" />
+    <fragment
+        android:id="@+id/fragment_anuncios_basicos"
+        android:name="com.example.panhelpmic.Fragment_anuncios_basicos"
+        android:label="fragment_anuncios_basicos"
+        tools:layout="@layout/fragment_anuncios_basicos" />
+    <fragment
+        android:id="@+id/fragment_anuncios_profesionales"
+        android:name="com.example.panhelpmic.Fragment_anuncios_profesionales"
+        android:label="fragment_anuncios_profesionales"
+        tools:layout="@layout/fragment_anuncios_profesionales" />
+    <fragment
+        android:id="@+id/fragment_anuncios_entretenimiento"
+        android:name="com.example.panhelpmic.Fragment_anuncios_entretenimiento"
+        android:label="fragment_anuncios_entretenimiento"
+        tools:layout="@layout/fragment_anuncios_entretenimiento" />
+    <fragment
+        android:id="@+id/fragment_perfil_usuario"
+        android:name="com.example.panhelpmic.Fragment_perfil_usuario"
+        android:label="fragment_perfil_usuario"
+        tools:layout="@layout/fragment_perfil_usuario" />
+    <fragment
+        android:id="@+id/fragment_detalle_anuncio"
+        android:name="com.example.panhelpmic.Fragment_detalle_anuncio"
+        android:label="fragment_detalle_anuncio"
+        tools:layout="@layout/fragment_detalle_anuncio" />
+</navigation>
